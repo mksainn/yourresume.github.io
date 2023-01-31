@@ -1,0 +1,257 @@
+
+:root
+{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+/* *
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+} */
+.cv{
+    width: auto;
+    height: 100px;
+    background-color: rgb(74, 139, 83);
+}
+.cv h1{
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: -3%;
+    text-shadow: 2px 2px;
+    color: black;
+}
+.cv nav{
+    float: right;
+    display: flex;
+    margin-top: 3%;
+    margin-right: 5%;
+    font-size: 23px;
+}
+.cv nav a{
+    text-decoration: none;
+}
+.cv nav :hover{
+    background-color: pink;
+}
+.cv img{
+    border-radius: 65%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+.bio{
+    width: auto;
+    height: 350px;
+    background-color: rgb(141, 125, 6);
+    margin-top: -3%;
+}
+.bio h1{
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 50px;
+    color: rgb(11, 11, 11);
+}
+.bio h2{
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.bio h3{
+    margin-left: 60%;
+    margin-top: -5%;
+}
+.bio h4{
+    margin-left: 70%;
+}
+.bio h4{
+    margin-top: -3%;
+    font-size: 30px;
+}
+.bio p{
+    margin-left: 70%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.inter{
+    width: auto;
+    height: 300px;
+    background-color: white;
+}
+.wix{
+    width: auto;
+    height: 350px;
+    background-color: white;
+}
+.inter h3{
+    margin-left: 60%;
+    margin-top: -3%;
+}
+.inter p{
+    margin-left: 70%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.inter h1{
+    margin-left: 70%;
+    margin-top: 3%;
+}
+.wix h1{
+    margin-left: 60%;
+    margin-top: -5%;
+    font-size: 20px;
+}
+.wix h4{
+    margin-left: 70%;
+    font-size: 30px;
+    margin-top: -3%;
+}
+.wix p{
+    margin-left: 70%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.head{
+    width: auto;
+    height: 600px;
+    background-color: rgb(87, 128, 218);
+}
+.head h1{
+    margin-left: 15%;
+    font-size: 50px;
+}
+.head h2{
+    margin-left: 60%;
+}
+.head h3{
+    margin-left: 70%;
+    margin-top: -3%;
+    text-align: justify;
+}
+.head p{
+    margin-left: 70%;
+    margin-right: 15%;
+    text-align: justify;
+}
+.head h4{
+    margin-left: 60%;
+    font-size: 25px;
+}
+.head h5{
+    margin-left: 70%;
+    margin-top: -3%;
+    text-align: justify;
+    font-size: 20px;
+}
+.tail{
+    height: 300px;
+    width: auto;
+    background-color: rgb(123, 230, 205);
+}
+.tail h1{
+    margin-left: 15%;
+    font-size: 40px;
+}
+.tail li{
+    margin-left: 70%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.footer h5{
+    margin-left: 7%;
+    font-size: 20px;
+    margin-top: 5%;
+    
+}
+.footer h2{
+    margin-left: 20%;
+    margin-top: -5%;
+}
+.footer h3{
+    margin-left: 50%;
+    margin-top: -3%;
+}
+.footer h4{
+    margin-left: 70%;
+    margin-top: -5%;
+}
+.footer{
+    width: auto;
+    height: 100px;
+}
+
+
+
+
+/*-- contect form-- */
+.contact-form .padd-15
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.contact-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.contact-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact-form .form-item
+{
+    margin-bottom: 30px;
+}
+.contact-form .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--bg-black-100);
+    border: 1px soid red;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.contact-form .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.contact-form .form-item textarea.form-control
+{
+    height: 140px;
+}
+.contact-form .btn
+{
+    height: 50px;
+    padding: 0 50px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: red;
+    transition: all 0.3s ease;
+}
+
